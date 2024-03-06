@@ -27,7 +27,7 @@ import io
 
 #For YOLO model
 #import ultralytics
-from ultralytics import YOLO
+#from ultralytics import YOLO
 
 #main function can use with  yolo model
 from yolo_cam.eigen_cam import EigenCAM
@@ -127,7 +127,7 @@ if source_radio == settings.IMAGE:
                      use_column_width=True)
         
         else:
-            model = YOLO('models/best_mic_L_edit.pt')
+            #model = YOLO('models/best_mic_L_edit.pt')
             plt.rcParams["figure.figsize"] = [3.0, 3.0]
             
             img = np.array(uploaded_image)
