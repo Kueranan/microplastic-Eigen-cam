@@ -26,7 +26,7 @@ from PIL import Image
 import io
 
 #For YOLO model
-import ultralytics
+#import ultralytics
 from ultralytics import YOLO
 
 #main function can use with  yolo model
@@ -87,7 +87,7 @@ source_radio = st.sidebar.radio(
 #source_img = None
 
 #model = YOLO('models/best_mic_L_edit.pt')
-target_layers = [model.model.model[-4]]
+#target_layers = [model.model.model[-4]]
 
 source_img = None
 # If image is selected
